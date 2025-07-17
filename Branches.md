@@ -1,5 +1,18 @@
 # Git Branches
 
+
+## List current branches
+```bash
+# List local branches
+git branch
+```
+
+```bash
+# List all branches including remote branches 
+git branch -a
+```
+
+
 ## Create a new branch
 
 There are a few ways to do it in Git:
@@ -29,4 +42,10 @@ git switch -c dev
 ## Switch between branches
 ```bash
 git switch <branch_name>
+```
+
+or (traditional way)
+
+```bash
+git checkout <branch_name>
 ```
